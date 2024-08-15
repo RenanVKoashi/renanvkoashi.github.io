@@ -193,6 +193,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: cover;
 
     
 }
@@ -203,6 +204,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     left: 0;
     object-fit: cover;
     width: 100%;
+    background-position: cover;
 }
 
 .banner .overlay{
@@ -287,7 +289,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30); object-fit: cover;}
+.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30); object-fit: contain;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
